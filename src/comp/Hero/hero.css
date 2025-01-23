@@ -1,0 +1,29 @@
+.hero {
+  font-size:6vw; /* حجم النص متجاوب */
+  font-weight: bolder; /* النص عريض */
+  width: max-content; /* النص يأخذ حجم المحتوى */
+  font-family: gilroy; /* الخط */
+  margin: 0 auto; /* محاذاة النص للمنتصف */
+  display: flex; /* يجعل العنصر مرنًا */
+  align-items: center; /* محاذاة للعناصر الداخلية */
+  color: #7A1CAC; /* اللون الأساسي */
+  text-transform: uppercase; /* تحويل النص إلى أحرف كبيرة */
+  letter-spacing: 5px; /* تباعد الأحرف */
+  text-shadow: 
+    2px 2px 8px rgba(0, 0, 0, 0.2), 
+    0 0 25px rgba(122, 28, 172, 0.8); /* الظلال الأساسية */
+  background: linear-gradient(to right, #7A1CAC, #9B4DCA); /* تدرج اللون */
+  -webkit-background-clip: text; /* اقتصاص النص بالخلفية */
+}
+.planet-hero{
+  width: 300px;
+  height: 300px;
+}
+@media (max-width:700px) {
+  .planet-hero{
+    width: 100px;
+    height: 100px;
+  
+  }
+  
+}

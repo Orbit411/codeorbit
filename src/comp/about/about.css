@@ -1,0 +1,44 @@
+.about{
+  width: 100%;
+  pad: 0 20px;
+}
+.about .about-p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  line-height: 2rem;
+  color: var(--subtitle);
+  margin: 25px 0;
+}
+.about .advantages {
+  margin: 20px 0;
+}
+.about .advantages .advant{
+  gap:20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about .advantages .advant .advant-box{
+flex-grow: 1;
+flex-basis: 50%;
+}
+.about .advantages .advant .advant-box h2{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #7A1CAC;
+  margin-bottom: 20px;
+}
+.about .advantages .advant .advant-box p{
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2rem;
+  color: var(--subtitle);
+}
+.about .advantages .advant .main-design .design {
+width: 300px;
+height: 300px;
+
+}

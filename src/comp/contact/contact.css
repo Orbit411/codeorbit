@@ -1,0 +1,172 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  overflow: hidden;
+}
+.contact .title h1 span {
+  
+align-self: center;
+margin-right: 10px;
+font-size: 2.5rem;
+color: var(--subtitle);
+}
+.contact .title h1{
+   color: var(--title);
+   font-size: 2.5rem;
+}
+.contact .title p{
+   color: var(--subtitle);
+   margin-top: 10px;
+   line-height: 25px;
+}
+.contactgem{
+  display: flex;
+   flex-direction: column;
+}
+.contactgem form{
+  display: flex;
+   flex-direction: column;
+   gap: 50px;
+   padding: 20px 20px;
+   
+}
+.contactgem form .d-flex{
+  display: flex;
+   align-items: center;
+   gap: 12px;
+}
+.contactgem form label{
+   color:var(--title) ;
+}
+.contactgem form input ,.contactgem form textarea{
+   all: unset;
+   padding: .3rem;
+   width:17rem;
+   background-color: rgba(63 , 63, 70, 0.3);
+   border: 1px solid transparent;
+   transition: .3s;
+   border-radius: 5px;
+   color: var(--subtitle);
+}
+.contactgem form textarea{
+ min-height: 100px;
+   resize: vertical;
+   
+}
+.contactgem form input:focus ,.contactgem form textarea:focus{
+   border: 1px solid var(--subtitle);
+}
+.contactgem form input:hover ,.contactgem form textarea:hover{
+   border: 1px solid var(--subtitle);
+}
+.contactgem form input{
+   margin-left: 1.5rem;
+}
+.contactgem form button{
+  padding:  15px 20px;
+  text-align: center;
+ color: var(--title);
+ background-color: var(--bgHeader);
+ border-radius: 5px;
+ text-transform: capitalize;
+ opacity: .7;
+ font-size: 1rem;
+ font-weight: 500;
+max-width: 200px;
+border: 2px solid #7A1CAC;;
+
+ /* margin-bottom: 10px; */
+}
+.contactgem form button:hover{
+  opacity: 1;
+
+
+  transition: .3s;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2), 0 0 25px rgba(122, 28, 172, 0.8);
+}
+.right .deve{
+   
+   width: 28rem;
+   transition: 1s;
+}
+.mesu{
+  color: var(--subtitle);
+  font-weight: 600;
+}
+.contact-icons{
+width: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+  
+}
+.contact-icons .icon{
+  
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 10px;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.05)
+  );
+  border-radius: 5px;
+  font-size: 1.8rem;
+}
+.contact-icons .what{
+  
+  box-shadow: 2px 2px 8px var(--subtitle) ;
+  color: var(--title);
+  transition: .5s ease-in-out;
+}
+.contact-icons .what:hover{
+scale: 1.1;
+
+
+transition: .5s ease-in-out;
+color: #7A1CAC;
+}
+.contact-icons .face:hover{
+scale: 1.1;
+
+
+transition: .5s ease-in-out;
+color: #7A1CAC;
+}
+.contact-icons .face{
+
+  box-shadow: 2px 2px 8px var(--subtitle) ;
+  color: var(--title);
+  transition: .5s ease-in-out;
+}
+@media(max-width:790px){
+   .contactgem form .d-flex{
+       flex-direction: column;
+   }
+   .contactgem form input ,.contactgem form textarea{
+       width: 100%;
+   }
+   .contactgem form input{
+       margin: 0;
+   }
+}
+@media(max-width:1200px){
+   .contact{
+       flex-wrap: wrap;
+   }
+   .right .deve{
+       width: 15rem;
+   }
+}
+.plan{
+ position: absolute;
+
+
+ width:  50% !important;
+left: -20%;
+
+}

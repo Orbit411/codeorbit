@@ -1,0 +1,123 @@
+.landing{
+width: 100%;
+color: var(--subtitle);
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+margin-bottom: 80px;
+
+
+}
+.landing .right-side{
+  margin:  0 auto;
+}
+.landing .left-side .welcome{
+  margin: 25px;
+  font-size: 1.5rem;
+  font-weight: 800;
+
+}
+.landing .left-side{
+  text-align: left;
+  padding: 0px 10px;
+
+}
+
+.landing .left-side h1{
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* لضمان محاذاة الرسوم المتحركة والنص معًا */
+  font-family: 'Arial', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #7A1CAC;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2), 0 0 25px rgba(122, 28, 172, 0.8);
+  background: linear-gradient(to right, #7A1CAC, #9B4DCA);
+  -webkit-background-clip: text;
+  color: transparent;
+  border-bottom: 5px solid #7A1CAC;
+  border-radius: 2px;
+}
+.landing .left-side .summeryabout h3{
+  color: var(--title);
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+.landing .left-side .summeryabout p{
+  font-weight: 400;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  line-height: 2rem;
+  color: var(--subtitle);
+}
+.landing .coding{
+  width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+.break{
+  width: 80%;
+  height: 5px;
+  margin: 0 auto;
+  background: #7A1CAC;
+  color: var(--subtitle);
+  border-radius: 10px;
+}
+@media (max-width:1000px) {
+  .landing{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .landing .coding{
+    width: 500px;
+    height: 500px;
+  }
+}
+@media (max-width:600px) {
+  .landing .left-side{
+    padding: 0 ;
+  }
+.landing .left-side h1{
+  font-size: 2.5rem;
+  
+}
+.landing .left-side .summeryabout h3{
+font-size: 1.3rem;
+}
+.landing .left-side .summeryabout p{
+  font-size: 1rem;
+
+}
+  .landing .coding{
+    width: 300px;
+    height: 300px;
+  }
+}
+.loza1{
+  display: flex;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2), 0 0 25px rgba(122, 28, 172, 0.8);
+  background: linear-gradient(to right, #7A1CAC, #9B4DCA);
+  -webkit-background-clip: text;
+  width: max-content;
+
+  align-items: center;
+  justify-content: center;
+}
+.loza2{
+  display: flex;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2), 0 0 25px rgba(122, 28, 172, 0.8);
+  background: linear-gradient(to right, #7A1CAC, #9B4DCA);
+  -webkit-background-clip: text;
+  width: max-content;
+  
+  align-items: center;
+  justify-content: center;
+}
+.d-flex{
+  display: flex;
+}

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/codeorbit/static/css/main.be2f6a70.css",
-    "main.js": "/codeorbit/static/js/main.3e5575ee.js",
+    "main.js": "/codeorbit/static/js/main.53e956ed.js",
     "static/js/453.26aaff34.chunk.js": "/codeorbit/static/js/453.26aaff34.chunk.js",
     "static/media/photo_2025-01-20_22-17-12-Photoroom.png": "/codeorbit/static/media/photo_2025-01-20_22-17-12-Photoroom.3af8da02dbafbb77a72a.png",
     "static/media/p1.gif": "/codeorbit/static/media/p1.f7756cea866a854ec325.gif",
@@ -10,6 +10,7 @@
     "static/media/p2.gif": "/codeorbit/static/media/p2.38f0377113388261b75f.gif",
     "static/media/logo192.png": "/codeorbit/static/media/logo192.cf1713ae0a7e1126ba7e.png",
     "static/media/p3.gif": "/codeorbit/static/media/p3.33eae4c68fc943e49169.gif",
+    "static/media/Screenshot 2025-01-26 164718.jpg": "/codeorbit/static/media/Screenshot 2025-01-26 164718.9d82cd898e8418c9c9a9.jpg",
     "static/media/p6.jpg": "/codeorbit/static/media/p6.4a0b29b7091b3d09eb2b.jpg",
     "static/media/p9.jpg": "/codeorbit/static/media/p9.0855ce7909eb4b886a27.jpg",
     "static/media/p5.jpg": "/codeorbit/static/media/p5.912da5ac71f1b8e4ec22.jpg",
@@ -22,11 +23,11 @@
     "static/media/logo.svg": "/codeorbit/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/codeorbit/index.html",
     "main.be2f6a70.css.map": "/codeorbit/static/css/main.be2f6a70.css.map",
-    "main.3e5575ee.js.map": "/codeorbit/static/js/main.3e5575ee.js.map",
+    "main.53e956ed.js.map": "/codeorbit/static/js/main.53e956ed.js.map",
     "453.26aaff34.chunk.js.map": "/codeorbit/static/js/453.26aaff34.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be2f6a70.css",
-    "static/js/main.3e5575ee.js"
+    "static/js/main.53e956ed.js"
   ]
 }

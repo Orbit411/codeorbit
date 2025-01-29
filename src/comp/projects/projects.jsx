@@ -233,7 +233,7 @@ const Projects = () => {
           <AnimatePresence>
             {arr.map((item) => {
               return (
-                <a href={item.linkrev}  rel="noreferrer" key={item.key}>
+                <a href={item.linkrev}  rel="noreferrer" key={item.key} target="_blank">
                   <motion.article
                     className="article"
                     layoutId={item.key}

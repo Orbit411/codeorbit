@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/codeorbit/static/css/main.be2f6a70.css",
-    "main.js": "/codeorbit/static/js/main.8c22ffb0.js",
+    "main.js": "/codeorbit/static/js/main.cacdb3ca.js",
     "static/js/453.26aaff34.chunk.js": "/codeorbit/static/js/453.26aaff34.chunk.js",
     "static/media/photo_2025-01-20_22-17-12-Photoroom.png": "/codeorbit/static/media/photo_2025-01-20_22-17-12-Photoroom.3af8da02dbafbb77a72a.png",
     "static/media/p1.gif": "/codeorbit/static/media/p1.f7756cea866a854ec325.gif",
@@ -24,11 +24,11 @@
     "static/media/logo.svg": "/codeorbit/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/codeorbit/index.html",
     "main.be2f6a70.css.map": "/codeorbit/static/css/main.be2f6a70.css.map",
-    "main.8c22ffb0.js.map": "/codeorbit/static/js/main.8c22ffb0.js.map",
+    "main.cacdb3ca.js.map": "/codeorbit/static/js/main.cacdb3ca.js.map",
     "453.26aaff34.chunk.js.map": "/codeorbit/static/js/453.26aaff34.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be2f6a70.css",
-    "static/js/main.8c22ffb0.js"
+    "static/js/main.cacdb3ca.js"
   ]
 }

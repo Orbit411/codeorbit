@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/codeorbit/static/css/main.be2f6a70.css",
+    "main.css": "/codeorbit/static/css/main.7b6c4b97.css",
     "main.js": "/codeorbit/static/js/main.becf8f5a.js",
     "static/js/453.26aaff34.chunk.js": "/codeorbit/static/js/453.26aaff34.chunk.js",
     "index.html": "/codeorbit/index.html",
-    "main.be2f6a70.css.map": "/codeorbit/static/css/main.be2f6a70.css.map",
+    "main.7b6c4b97.css.map": "/codeorbit/static/css/main.7b6c4b97.css.map",
     "main.becf8f5a.js.map": "/codeorbit/static/js/main.becf8f5a.js.map",
     "453.26aaff34.chunk.js.map": "/codeorbit/static/js/453.26aaff34.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be2f6a70.css",
+    "static/css/main.7b6c4b97.css",
     "static/js/main.becf8f5a.js"
   ]
 }
